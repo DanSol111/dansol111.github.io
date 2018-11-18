@@ -1,0 +1,102 @@
+h1
+,p {
+  color: red;
+  background-color: black;
+  font-style: sans-serif ;
+  font-size: 30;
+  padding: 10px;
+  padding-left: 0;
+  border: 4px solid yellow;
+  margin: 15px;
+  width: 300px;
+  <!--margin-left: auto;-->
+}
+.quote{
+  font-style: italic;
+}
+#special{
+  color: blue;
+}
+.row{
+  float: left;
+}
+.column {
+  float: left;
+}
+.column-70{
+  width: 70%;
+}
+
+.column-30{
+  width: 30%;
+}
+img{
+  display: block;
+  margin: left;
+}
+p em{
+  color: green;
+}
+/* body{
+  background-attachment: fixed;
+  background-image: url(splash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+} */
+#header-image{
+  height: 100px;
+  background-attachment: fixed;
+  background-image: url(splash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+p:hover{
+  width: 450px
+}
+p{
+  transition: .5s width linear;
+}
+/* unvisited link*/
+a:link{
+  color: rgb(255,0,0);
+}
+/* visited link*/
+a:visited{
+  color: rgb(0,255,0);
+}
+/* mouse over link*/
+a:hover{
+  color: rgb(255,0,255);
+}
+/* selected link*/
+a:active{
+  color: rgb(0,0,255);
+}
+ul.navigation
+{
+  background-color: white;
+  display: block;
+  list-style: none;
+  margin-top:0;
+  width:100%;
+  height: 35px;
+}
+
+ul.navigation li{
+  display: inline-block;
+}
+
+ul.navigation a {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  transition: .3s background-color, .3s color;
+}
+
+ul.navigation a:hover{
+  background-color: black;
+  color: white;
+}
